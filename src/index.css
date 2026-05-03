@@ -1,0 +1,19 @@
+@import "tailwindcss";
+/* Custom teal scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  background: #f0fdfa;
+}
+::-webkit-scrollbar-thumb {
+  background: #0f766e; /* teal-700 */
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #115e59; /* darker teal on hover */
+}
+
+/* Firefox */
+html {
+  scrollbar-color: #0f766e #f0fdfa;
+  scrollbar-width: thin;
+}
